@@ -112,17 +112,17 @@ def draw_student_b(x, y):
 
 #drawing David O'Gwynn:
 def draw_David(x,y):
-    arcade.draw_line(x, y, x, y-60, arcade.color.BARBIE_PINK, 7)
+    arcade.draw_line(x, y, x, y-60, arcade.color.AMAZON, 7)
     #right arm
-    arcade.draw_line(x, y-30, x+15, y-50, arcade.color.BARBIE_PINK, 5)
-    arcade.draw_line(x+12, y-50, x+27, y-40, arcade.color.BARBIE_PINK, 5)
+    arcade.draw_line(x, y-30, x+15, y-50, arcade.color.AMAZON, 5)
+    arcade.draw_line(x+12, y-50, x+27, y-40, arcade.color.AMAZON, 5)
     #left arm
-    arcade.draw_line(x, y-30, x-20, y-50, arcade.color.BARBIE_PINK, 5)
-    arcade.draw_line(x-18, y-50, x-30, y-30, arcade.color.BARBIE_PINK, 5)
+    arcade.draw_line(x, y-30, x-20, y-50, arcade.color.AMAZON, 5)
+    arcade.draw_line(x-18, y-50, x-30, y-30, arcade.color.AMAZON, 5)
     #lower torse
-    arcade.draw_line(x, y-60, x, y-70, arcade.color.BRIGHT_UBE, 7)
-    arcade.draw_line(x, y-70, x+15, y-120, arcade.color.BRIGHT_UBE, 5)
-    arcade.draw_line(x, y-70, x-15, y-120, arcade.color.BRIGHT_UBE, 5)
+    arcade.draw_line(x, y-60, x, y-70, arcade.color.BLUE, 7)
+    arcade.draw_line(x, y-70, x+15, y-120, arcade.color.BLUE, 5)
+    arcade.draw_line(x, y-70, x-15, y-120, arcade.color.BLUE, 5)
     #head and face
     arcade.draw_circle_filled(x, y, 20, arcade.color.PEACH)
     point_list = ((x+3, y-3),
